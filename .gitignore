@@ -1,2 +1,5 @@
 # Ignore any directory named "data" and all its contents at any depth
 **/data/**
+
+# Keep a placeholder so Git can track the directory; create data/.gitkeep in each data directory
+!**/data/.gitkeep
