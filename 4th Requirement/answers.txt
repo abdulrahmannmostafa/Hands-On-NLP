@@ -1,0 +1,47 @@
+
+Student 1: Abd El-Rahman Mostafa Gomaa
+Student 2: Mohamed Khaled Ahmed Abd El-Wahed
+
+Q1:
+
+It represents the number of keys we have embeddings for each
+
+
+Q2:
+
+The dimensionality for each key's embedding is (300 x 1)
+
+
+Predicted Country:
+Egypt
+
+Predicted Similarity:
+0.7626821994781494
+
+Q3:
+
+Yes
+
+
+Q4:
+
+Yes. Because the embedding itself stores the meaning of the word, for that all words with the same context with utlilzing the concept of DISTRIBUTIONAL HYPOTHESIS, this would likely mean that all words with the same
+context should be clustered together as they have the same meaning. For that if we make a difference between a country and its city, then that value would be nearly equal any difference between other country and its city
+So, The difference between a country and its capital tends to form a consistent direction in embedding space across many examples. 
+Since this relation stays roughly the same, we can reuse the vector difference from one pair (city1 → country1) to predict the country corresponding to another city (city2).
+
+
+Computed Accuracy:
+0.9192082407594425
+
+Q5:
+
+Type Yes or No
+YES
+
+
+Q6:
+
+Type your answer here
+Similar words are each clustered together (happy,sad) are very close, sad is a bit further and this applies for all other similar words. this happens due to similarity in the directions of vectors.
+
