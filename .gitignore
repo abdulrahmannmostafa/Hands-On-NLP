@@ -3,3 +3,5 @@
 
 # Keep a placeholder so Git can track the directory; create data/.gitkeep in each data directory
 !**/data/.gitkeep
+
+**/src/__pycache__/
